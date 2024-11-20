@@ -31,8 +31,11 @@
 - Create a WalletOptions component (const { connectors, connect } = useConnect())
 
 WAGMI imports :
-import { sepolia } from 'wagmi/chains'
-import { injected } from 'wagmi/connectors'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { http, createConfig, WagmiProvider, useConnect, useAccount, useBalance, useDisconnect, useSendTransaction } from 'wagmi'
-import { parseEther } from 'viem'
+
+```
+    import { sepolia } from 'wagmi/chains'
+    import { injected } from 'wagmi/connectors'
+    import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+    import { http, createConfig, WagmiProvider, useConnect, useAccount, useBalance, useDisconnect, useSendTransaction } from 'wagmi'
+    import { parseEther } from 'viem'
+```
